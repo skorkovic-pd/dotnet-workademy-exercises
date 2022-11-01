@@ -2,7 +2,7 @@
 Create console application and push it to your git. Code for each exercise put in separated method (static, separate it in new class, as you want) and push also to your repo.
 
 ### 1. [1.november]
-Write a method that receives one integer number and returns **true** if number has the same value if it is read from right to left, otherwise it returns **false**.
+Write a method that receives one integer positive number and returns **true** if number has the same value if it is read from right to left, otherwise it returns **false**.
 
 Example: 
 
