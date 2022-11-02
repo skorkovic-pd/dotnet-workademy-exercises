@@ -20,7 +20,7 @@ Perfect substring is one that consists the same number of **R** and **S** charac
 *Input*: "RSRRRSSRSS"; *Output*: 2  
 *Input*: "SSSSRRRR"; *Output*: 2
 
-Constraints: 
+Constraints:
 * string length is between 2 and 100
 * characters are **R** or **S**
 * string is balanced
