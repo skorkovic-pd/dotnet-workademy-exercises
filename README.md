@@ -4,8 +4,7 @@ Create console application and push it to your git. Code for each exercise put i
 ### 1. [1.november]
 Write a method that receives one integer positive number and returns **true** if number has the same value if it is read from right to left, otherwise it returns **false**.
 
-*Example*: 
-
+*Example*:  
 *Input*: 150; *Output*: false  
 *Input*: 181; *Output*: true  
 *Input*: 1; *Output*: true  
