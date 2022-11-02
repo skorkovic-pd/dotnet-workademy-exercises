@@ -4,7 +4,7 @@ Create console application and push it to your git. Code for each exercise put i
 ### 1. [1.november]
 Write a method that receives one integer positive number and returns **true** if number has the same value if it is read from right to left, otherwise it returns **false**.
 
-Example: 
+*Example*: 
 
 *Input*: 150; *Output*: false  
 *Input*: 181; *Output*: true  
@@ -16,7 +16,7 @@ Example:
 Write a method that receives one string that consists only **R** and **S** characters (in Upper Case) and returns maximum number of perfect substrings. 
 Perfect substring is one that consists the same number of **R** and **S** characters. Characters in string can not be skipped to create more substrings.
 
-Example:
+*Example*:  
 *Input*: "RSRRSSRSRS"; *Output*: 4  
 *Input*: "RSRRRSSRSS"; *Output*: 2  
 *Input*: "SSSSRRRR"; *Output*: 2
