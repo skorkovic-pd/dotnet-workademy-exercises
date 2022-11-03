@@ -13,7 +13,7 @@ Write a method that receives one integer positive number and returns **true** if
 
 ### 2. [2.november]
 Write a method that receives one string that consists only **R** and **S** characters (in Upper Case) and returns maximum number of perfect substrings. 
-Perfect substring is one that consists the same number of **R** and **S** characters. Characters in string can not be skipped to create more substrings.
+Perfect substring is one that consists the same number of **R** and **S** characters. Characters in string can not be skipped to create more substrings. Time complexity must be O(n).
 
 *Example*:  
 *Input*: "RSRRSSRSRS"; *Output*: 4  
