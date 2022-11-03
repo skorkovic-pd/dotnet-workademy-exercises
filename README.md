@@ -24,3 +24,15 @@ Constraints:
 * string length is between 2 and 100
 * characters are **R** or **S**
 * string is balanced
+
+### 3. [3.november]  
+Write a method that receives one string and returns **true** if sentence is pangram, and **false** if it is not. Sentence is pangram if consists every letter of the English alphabet. 
+
+*Example*:
+*Input*: "prodynabelgrade"; *Output*: false  
+*Input*: "jackamazedafewgirlsbydroppingtheantiqueonyxvas"; *Output*: true   
+*Input*: "twodrivenjockshelpfaxmybigquiz"; *Output*: true
+
+Constraints:  
+* string length is between 1 and 1000
+* string consists only lowercase English letters, without spaces
