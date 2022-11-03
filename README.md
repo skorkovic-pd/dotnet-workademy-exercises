@@ -28,7 +28,7 @@ Constraints:
 ### 3. [3.november]  
 Write a method that receives one string and returns **true** if sentence is pangram, and **false** if it is not. Sentence is pangram if consists every letter of the English alphabet. 
 
-*Example*:
+*Example*:  
 *Input*: "prodynabelgrade"; *Output*: false  
 *Input*: "jackamazedafewgirlsbydroppingtheantiqueonyxvas"; *Output*: true   
 *Input*: "twodrivenjockshelpfaxmybigquiz"; *Output*: true
