@@ -18,7 +18,7 @@ Perfect substring is one that consists the same number of **R** and **S** charac
 *Example*:  
 *Input*: "RSRRSSRSRS"; *Output*: 4  
 *Input*: "RSRRRSSRSS"; *Output*: 2  
-*Input*: "SSSSRRRR"; *Output*: 2
+*Input*: "SSSSRRRR"; *Output*: 1
 
 Constraints:
 * string length is between 2 and 100
