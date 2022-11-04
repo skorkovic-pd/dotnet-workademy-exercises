@@ -36,3 +36,16 @@ Write a method that receives one string and returns **true** if sentence is pang
 Constraints:  
 * string length is between 1 and 1000
 * string consists only lowercase English letters, without spaces
+
+### 4. [4.november]  
+Write a method that receives two strings and returns **true** if first string is subsequence of second string, in other case it returns **false**. String is subsequence of second string in case all its characters are part of that second string, without changing order of characters. Characters don't have to be next to each other.
+
+*Example*:  
+*Input*: firstString="abc", secondString="ahbgdc"; *Output*: true  
+*Input*: firstString="axc", secondString="ahbgdc"; *Output*: false  
+*Input*: firstString="", secondString="ahbgdc"; *Output*: true  
+
+Constraints:  
+* 0 <= firstString.length <= 100
+* 0 <= secondString.length <= 1000
+* firstString and secondString consist only of lowercase English letters.
