@@ -11,6 +11,8 @@ Write a method that receives one integer positive number and returns **true** if
 *Input*: 11; *Output*: true  
 *Input*: 19; *Output*: false
 
+Classname: **CheckIfNumberIsPalindrome**
+
 ### 2. [2.november]
 Write a method that receives one string that consists only **R** and **S** characters (in Upper Case) and returns maximum number of perfect substrings. 
 Perfect substring is one that consists the same number of **R** and **S** characters. Characters in string can not be skipped to create more substrings. Time complexity must be O(n).
@@ -25,6 +27,8 @@ Constraints:
 * characters are **R** or **S**
 * string is balanced
 
+Classname: **SplitStringInBalancedSubstrings**
+
 ### 3. [3.november]  
 Write a method that receives one string and returns **true** if sentence is pangram, and **false** if it is not. Sentence is pangram if consists every letter of the English alphabet. 
 
@@ -36,6 +40,8 @@ Write a method that receives one string and returns **true** if sentence is pang
 Constraints:  
 * string length is between 1 and 1000
 * string consists only lowercase English letters, without spaces
+
+Classname: **CheckIfSentenceIsPangram**
 
 ### 4. [4.november]  
 Write a method that receives two strings and returns **true** if first string is subsequence of second string, in other case it returns **false**. String is subsequence of second string in case all its characters are part of that second string, without changing order of characters. Characters don't have to be next to each other.
@@ -49,6 +55,8 @@ Constraints:
 * 0 <= firstString.length <= 100
 * 0 <= secondString.length <= 1000
 * firstString and secondString consist only of lowercase English letters.
+
+Classname: **CheckIfStringIsSubsequenceOfSentence**
 
 ### 5. [7.november] 
 Write a method that receives array of integers and returns integer that is greatest common divisor of array (greatest common divisor of the smallest and the largest number in array of integers). 
