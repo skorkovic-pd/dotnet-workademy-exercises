@@ -49,3 +49,17 @@ Constraints:
 * 0 <= firstString.length <= 100
 * 0 <= secondString.length <= 1000
 * firstString and secondString consist only of lowercase English letters.
+
+### 5. [7.november] 
+Write a method that receives array of integers and returns integer that is greatest common divisor of array (greatest common divisor of the smallest and the largest number in array of integers). 
+
+*Example*:  
+*Input*: [2,5,6,9,10]; *Output*: 2  
+*Input*: [7,5,6,8,3]; *Output*: 1   
+*Input*: [3,3]; *Output*: 3
+
+Constraints:  
+* numbers in array have value between 1 and 1000
+* array has length between 2 and 1000
+
+Classname: **GreatestCommonDivisorOfArray**
