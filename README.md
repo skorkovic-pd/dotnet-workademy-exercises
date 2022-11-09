@@ -85,3 +85,33 @@ Constraints:
 * string consists only lowercase letters
 
 Classname: **FirstNonRepeatedCharacter**
+
+### 7. [9.november] 
+Write a method that receives a string and returns index of first non repeated letter (character). Otherwise it returns -1. 
+
+*Example*:  
+*Input*: "prodyna"; *Output*: 0  
+*Input*: "thebestcompany"; *Output*: 1   
+*Input*: "aabbcc"; *Output*: -1
+
+Constraints:  
+* string length is between 1 and 1000
+* string consists only lowercase letters
+
+Classname: **FirstNonRepeatedCharacter**
+
+### 8. [10.november] 
+Write a method that receives an array of integers and returns true if array is continuous sequence, otherwise it returns false. Array is continuous sequence if its elements are ordered ascendingly or descendingly. Also neighboring elements can have the same values.
+
+*Example*:  
+*Input*: [3,4,5,5,5,6]; *Output*: true   
+*Input*: [421,22,19,4,4,1]; *Output*: true   
+*Input*: [2,5,8,7,8]; *Output*: false
+
+Constraints:  
+* array's length is between 1 and 1000
+* array elements have value between 1 and 1000
+
+Classname: **ArrayIsContinuousSequence**
+
+
