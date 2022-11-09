@@ -71,3 +71,17 @@ Constraints:
 * array has length between 2 and 1000
 
 Classname: **GreatestCommonDivisorOfArray**
+
+### 6. [8.november] 
+Write a method that receives a string and returns index of first non repeated letter (character). Otherwise it returns -1. 
+
+*Example*:  
+*Input*: "prodyna; *Output*: 0  
+*Input*: "thebestcompany"; *Output*: 1   
+*Input*: "aabbcc"; *Output*: -1
+
+Constraints:  
+* string length is between 1 and 1000
+* string consists only lowercase letters
+
+Classname: **FirstNonRepeatedCharacter**
