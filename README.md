@@ -120,9 +120,9 @@ Write a method that receives a integer and returns value of Fib(n). Fib is funct
 *Example*:  
 *Input*: 0; *Output*: 0   
 *Input*: 1; *Output*: 1   
-*Input*: 2; *Output*: 1
-*Input*: 3; *Output*: 2
-*Input*: 5; *Output*: 5
+*Input*: 2; *Output*: 1  
+*Input*: 3; *Output*: 2  
+*Input*: 5; *Output*: 5  
 
 Constraints:  
 * integer has value between 0 and 100
