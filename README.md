@@ -114,4 +114,17 @@ Constraints:
 
 Classname: **ArrayIsContinuousSequence**
 
+### 9. [14.november] 
+Write a method that receives a integer and returns value of Fib(n). Fib is function that calculates Fibonacci numbers - numbers of Fibonacci sequence where each element of sequence has value that is sum of the two preceding elements. First (Fib(0)) and second (Fib(1)) elements have values 0 and 1.
 
+*Example*:  
+*Input*: 0; *Output*: 0   
+*Input*: 1; *Output*: 1   
+*Input*: 2; *Output*: 1
+*Input*: 3; *Output*: 2
+*Input*: 5; *Output*: 5
+
+Constraints:  
+* integer has value between 0 and 100
+
+Classname: **FibonacciNumberCalculator**
