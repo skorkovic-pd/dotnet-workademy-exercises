@@ -128,3 +128,17 @@ Constraints:
 * integer has value between 0 and 100
 
 Classname: **FibonacciNumberCalculator**
+
+### 10. [15.november] 
+Write a method that receives an array of integers (initialArray) and returns also an array of integers (resultArray) where each element has value that represents how far from original value is his first greater successor. For example, if initialArray[3] = 5, value of resultArray[3] will be distance from that index (3) to the index of next greater successor. In case there is not greater successor value will be 0.
+
+*Example*:  
+*Input*: [22,23,24,11,15,2,45,47]; *Output*: [1,1,4,1,2,1,1,0]   
+*Input*: [60,70,80,90]; *Output*: [1,1,1,0]   
+*Input*: [90,60,30]; *Output*: [0,0,0]  
+
+Constraints:  
+* length of arrays is between 1 and 10000
+* values of initialArray are between 1 and 100
+
+Classname: **FirstGreaterSuccessor**
