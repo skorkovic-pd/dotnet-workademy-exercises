@@ -142,3 +142,17 @@ Constraints:
 * values of initialArray are between 1 and 100
 
 Classname: **FirstGreaterSuccessor**
+
+### 11. [16.november] 
+Write a method that receives an array of integers and returns pairs of elements that have the same difference as the minimum absolute difference of array. Minimum absolute difference of array is the lowest difference between two elements. Elements can be in more than one pair, but elements are unique inside array. Pairs are returned in IList<IList<int>> type of structure. Also pairs are in ascending order. So if *b-a=minAbsDiff(array)*, a < b and pair [a,b] is added to returning structure.  
+
+*Example*:  
+*Input*: [1,3,8,14,22]; *Output*: [[1,3]] 
+*Input*: [3,8,-10,23,19,-4,-14,27]; *Output*: [[-14,-10],[19,23],[23,27]] 
+*Input*: [4,2,1,3]; *Output*: [[1,2],[2,3],[3,4]] 
+
+Constraints:  
+* length of array is between 2 and 10000 elements
+* values of array have values between -10<sup>6</sup> and 10<sup>6</sup>
+
+Classname: **AllPairsWithMinimalDifference**
