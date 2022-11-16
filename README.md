@@ -87,18 +87,19 @@ Constraints:
 Classname: **FirstNonRepeatedCharacter**
 
 ### 7. [9.november] 
-Write a method that receives a string and returns index of first non repeated letter (character). Otherwise it returns -1. 
+Write a method that receives two strings and returned second one sorted by rule defined by the first string. First string has unique (non-repeated) letters. Both strings consist only of alphabet characters. If any character from the second string is not in first string it can be on any position in result (ordered) string.
 
 *Example*:  
-*Input*: "prodyna"; *Output*: 0  
-*Input*: "thebestcompany"; *Output*: 1   
-*Input*: "aabbcc"; *Output*: -1
+*Input*: "vbi", "ivbk"; *Output*: "vbik"  
+*Input*: "ihgfedcba", "prodyna"; *Output*: "prodyna"   
+*Input*: "cbafg", "abcd"; *Output*: "cbad"
 
 Constraints:  
-* string length is between 1 and 1000
-* string consists only lowercase letters
+* order string has length between 1 and 26, and all characters are unique
+* second string (string for ordering) has length between 1 and 200
+* both strings consist lowercase English letters
 
-Classname: **FirstNonRepeatedCharacter**
+Classname: **SortedStringByCustomRule**
 
 ### 8. [10.november] 
 Write a method that receives an array of integers and returns true if array is continuous sequence, otherwise it returns false. Array is continuous sequence if its elements are ordered ascendingly or descendingly. Also neighboring elements can have the same values.
