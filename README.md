@@ -164,7 +164,7 @@ Write a method that receives an array of integers and returns value of super ele
 
 *Example*:  
 *Input*: [2,2,3,4]; *Output*: 2  
-*Input*: [1,2,2,3,3,3]; *Output*: 3 
+*Input*: [1,2,2,3,3,3]; *Output*: 3  
 *Input*: [2,2,2,3,3]; *Output*: -1
 
 Constraints:  
