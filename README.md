@@ -157,3 +157,18 @@ Constraints:
 * values of array have values between -10<sup>6</sup> and 10<sup>6</sup>
 
 Classname: **AllPairsWithMinimalDifference**
+
+
+### 12. [17.november] 
+Write a method that receives an array of integers and returns value of super element of given array, otherwise it returns -1. Super element is element that has a value equal to the number of repetitions in the array.
+
+*Example*:  
+*Input*: [2,2,3,4]; *Output*: 2  
+*Input*: [1,2,2,3,3,3]; *Output*: 3 
+*Input*: [2,2,2,3,3]; *Output*: -1
+
+Constraints:  
+* length of array is between 1 and 500 elements
+* values of array have values between 1 and 500
+
+Classname: **SuperElementOfArray**
