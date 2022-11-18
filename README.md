@@ -172,3 +172,19 @@ Constraints:
 * values of array have values between 1 and 500
 
 Classname: **SuperElementOfArray**
+
+### 13. [18.november] 
+Write a method that receives a integer and returns true if integer is ugly number. Ugly number is positive integer whose factors are limited to 2, 3 and 5.
+
+*Example*:  
+*Input*: 6; *Output*: true (2, 3)  
+*Input*: 1; *Output*: true (1 has no prime factors)  
+*Input*: 14; *Output*: false (2, 7)  
+*Input*: 22; *Output*: false (2, 11)  
+*Input*: 24; *Output*: true (2, 2, 2, 3)  
+
+
+Constraints:  
+* integer has any possible value for integer number in C#
+
+Classname: **UglyNumberCheck**
