@@ -174,7 +174,7 @@ Constraints:
 Classname: **SuperElementOfArray**
 
 ### 13. [18.november] 
-Write a method that receives a integer and returns true if integer is ugly number. Ugly number is positive integer whose factors are limited to 2, 3 and 5.
+Write a method that receives an integer and returns true if integer is ugly number. Ugly number is positive integer whose factors are limited to 2, 3 and 5.
 
 *Example*:  
 *Input*: 6; *Output*: true (2, 3)  
@@ -188,3 +188,19 @@ Constraints:
 * integer has any possible value for integer number in C#
 
 Classname: **UglyNumberCheck**
+
+### 14. [21.november] 
+Copy-Paste problem - you have opened Notepad and written one letter **P**. Two possible operations are given to you: Copy-All and Paste, and you need to use as less as possible number of operations to get required number of written letters **P**. Write a method that receives an integer (number of letters **P** that must be written in Notepad) and returns an integer that is the minimum required number of operations that are needed to do that.
+
+*Example*:  
+*Input*: 3; *Output*: 3  
+*Input*: 4; *Output*: 3  
+*Input*: 5; *Output*: 5  
+*Input*: 1; *Output*: 0  
+*Input*: 6; *Output*: 5  
+
+
+Constraints:  
+* integer has value between 1 and 1000
+
+Classname: **CopyPasteProblem**
