@@ -198,7 +198,7 @@ Copy-Paste problem - you have opened Notepad and written one letter **P**. Two p
 *Input*: 5; *Output*: 5  
 *Input*: 1; *Output*: 0  
 *Input*: 6; *Output*: 5  
-*Input*: 10; *Output*: 10  
+*Input*: 10; *Output*: 7  
 
 
 Constraints:  
