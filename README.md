@@ -205,3 +205,22 @@ Constraints:
 * integer has value between 1 and 1000
 
 Classname: **CopyPasteProblem**
+
+### 15. [24.november] 
+Restaurant meel waiting - customers arrive in restaurant and order food, wait for it to be prepared, and then get it. You have to write a method that receives array *customers*, and returns double value that represents value of average time customers need to wait.  
+*customers[i]*, for each *i*, has [arrival<sup>i</sup>, time<sup>i</sup>]:  
+* arrival<sup>i</sup> is integer that represents time of customers arrival. Elements of customers array are sorted in ascending order by arrival time
+* time<sup>i</sup> is the time that is needed to prepare food for customer i.  
+Kitchen can prepare food for only one customer, parallelisation is impossible.  
+
+*Example*:  
+*Input*: [[1,2],[2,5],[4,3]]; *Output*: 5.00  
+*Input*: [[5,2],[5,4],[10,3],[20,1]]; *Output*: 3.25  
+
+
+Constraints:  
+* array customers has length between 1 and 10000
+* arrival and time have values between 1 and 1000
+* arrival<sup>i</sup> <= arrival<sup>i+1</sup>
+
+Classname: **CopyPasteProblem**
