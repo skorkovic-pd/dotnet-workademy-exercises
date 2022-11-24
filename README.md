@@ -208,9 +208,9 @@ Classname: **CopyPasteProblem**
 
 ### 15. [24.november] 
 Restaurant meel waiting - customers arrive in restaurant and order food, wait for it to be prepared, and then get it. You have to write a method that receives array *customers*, and returns double value that represents value of average time customers need to wait.  
-*customers[i]*, for each *i*, has [arrival<sup>i</sup>, time<sup>i</sup>]:  
-* arrival<sup>i</sup> is integer that represents time of customers arrival. Elements of customers array are sorted in ascending order by arrival time
-* time<sup>i</sup> is the time that is needed to prepare food for customer i.  
+*customers[i]*, for each *i*, has [arrival<sub>i</sub>, time<sub>i</sub>]:  
+* arrival<sub>i</sub> is integer that represents time of customers arrival. Elements of customers array are sorted in ascending order by arrival time
+* time<sub>i</sub> is the time that is needed to prepare food for customer i.  
 Kitchen can prepare food for only one customer, parallelisation is impossible.  
 
 *Example*:  
@@ -221,6 +221,6 @@ Kitchen can prepare food for only one customer, parallelisation is impossible.
 Constraints:  
 * array customers has length between 1 and 10000
 * arrival and time have values between 1 and 1000
-* arrival<sup>i</sup> <= arrival<sup>i+1</sup>
+* arrival<sub>i</sub> <= arrival<sub>i+1</sub>
 
 Classname: **CopyPasteProblem**
