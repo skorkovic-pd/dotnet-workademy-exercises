@@ -223,4 +223,4 @@ Constraints:
 * arrival and time have values between 1 and 1000
 * arrival<sub>i</sub> <= arrival<sub>i+1</sub>
 
-Classname: **CopyPasteProblem**
+Classname: **RestaurantWaitingProblem**
