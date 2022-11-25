@@ -224,3 +224,19 @@ Constraints:
 * arrival<sub>i</sub> <= arrival<sub>i+1</sub>
 
 Classname: **RestaurantWaitingProblem**
+
+### 16. [25.november] 
+New binary number in array - write a method that receives array of strings that represent binary numbers (binary number written in string) and returns string that represents new binary number, number that is not in given array. Array of strings contains unique numbers (there is not two same numbers in array). Also, if array contains **n** numbers then each binary number contains exactly **n** ciphers. If there are multiple answers, you may return any of them.  
+
+*Example*:  
+*Input*: ["00","01"]; *Output*: "11"  
+*Input*: ["101","011","001"]; *Output*: "111"  
+*Input*: ["1111","1011","1001", "0000"]; *Output*: "0111"  
+
+Constraints:  
+* n (number of ciphers in binary numbers) == nums.Length  
+* n has value between 1 and 16  
+* all numbers in array are unique  
+* each cipher can be either '0' or '1' (because numbers are binary)  
+
+Classname: **NewBinaryNumber**
